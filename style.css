@@ -1,0 +1,105 @@
+body {
+    background-image: linear-gradient(to right, pink ,rgb(163, 56, 235));
+  }
+
+#pic{
+    height: 200px;
+    width:200px;
+    border-radius:50%;
+    background-color: white;
+    z-index:1;
+    background-image:url("bean.jpg");
+    background-size:cover;
+    position:relative;
+    top:150px;
+    left:800px;
+    box-shadow:20px;
+}
+#content{
+    background-color:white;
+    height: 650px;
+    width:800px;
+    border-radius:15px;
+    position:relative;
+    left:500px;
+}
+
+h1{
+    text-align: center;
+    color:blueviolet;
+    font-size:30px;
+
+}
+#follower{
+     color:grey;
+     text-align:center;
+     font-size:16px;
+}
+
+#text{
+    color:grey;
+    text-align:center;
+    font-size:16px;
+}
+
+#message{
+display:inline-block;
+position:relative;
+left:150px;
+background-color: rgb(166, 89, 239);
+width:100px;
+height:30px;
+border-radius:20px;
+color:white;
+padding:15px;
+padding-left:50px;
+padding-top:20px;  
+}
+
+#follow{
+    display:inline-block;
+position:relative;
+left:300px;
+background-color: rgb(229, 87, 132);
+width:100px;
+height:30px;
+border-radius:20px;
+color:white;
+padding:15px;
+padding-left:50px;
+padding-top:20px;
+}
+
+#flex{
+    display:flex;
+    flex-direction:row;
+   justify-content: space-around;
+    
+}
+
+#twitter{
+    height:50px;
+    width:50px;
+     
+}
+
+#github{
+    height:50px;
+    width:50px;
+     
+}
+#fb{
+    height:50px;
+    width:50px;
+     
+}
+#insta{
+    height:50px;
+    width:50px;
+    
+}
+#linkedin{
+    height:50px;
+    width:50px;
+    
+}
